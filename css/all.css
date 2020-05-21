@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+/*layout*/
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+
+}
+.header{
+	height: 50px;
+	background-color: rgba(244, 154, 9, 0.3);
+	padding: 3px;
+	
+
+}
+.header a{
+	color: #0da0bc;
+
+}
+.logo{
+	float: left;
+	padding: 5px;
+}
+.logo p{
+	float: right;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 5px;
+
+}
+.logo img{
+	height: 35px;
+	width: 35px;
+}
+.menu{
+	float: right;
+	color: #0da0bc;
+	margin-right: 10px;
+
+}
+
+.menu li{
+	float: left;
+	border: 1.5px #0da0bc;
+	border-style: solid solid none;
+	font-size:16px;
+	padding: 5px 10px;
+	margin: 10px;
+	margin-top: 26px;
+	font-weight: bold;
+	
+
+}
+.menu li:hover, .menu a:hover {
+	background: #0da0bc;
+	color: white;
+	
+}
+
+.content{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 70px;
+	color: #2a2d2e;
+
+}
+h1{
+	font-size: 25px;
+	border: 1.5px solid #031013;
+	border-radius: 10px 10px 0px 0px;
+	padding: 6px;
+	
+	float: left;
+
+}
+.content p{
+	clear: both;
+	border: 1.5px solid #d5e1e3;
+	padding: 15px;
+	margin-bottom: 200px;
+	line-height: 2;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.footer{
+	height: 50px;
+	background: rgba(13, 160, 188, 0.6);
+}
+.footer ul{
+	float: right;
+	margin-right: 40px;
+}
+.footer img{
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+
+}
+/*experience*/
+table{
+	width: 800px;
+	margin-top: 70px;
+	color: #2a2d2e;
+	text-align: left;
+	line-height: 1.5;
+	border: 1.5px solid #d5e1e3;
+	
+
+	
+}
+th{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2.5;
+	border-bottom: 3px dashed #d5e1e3;
+}
+th, td{
+	padding: 10px;
+}
+tr:hover{
+	background-color: #d5e1e3;
+}
+.experience li{
+	list-style: circle;
+}
+.projects{
+	margin-left: 20px;
+}
+.projects li{
+	list-style: none;
+	float: left;
+	width: 360px;
+	padding: 15px;
+	
+	
+}
+.projects li img{
+	
+	width: 100%;
+	height: auto;
+	margin-bottom: 100px;
+	vertical-align: middle;
+}
+.education{
+	clear: both;
+	margin-bottom: 100px;
+}
+
+/*skills*/
+.skill ul, .language ul, .certification ul{
+	clear: both;
+	border: 1.5px solid #d5e1e3;
+	padding: 15px;
+	margin-bottom: 100px;
+	line-height: 1.5;
+}
+.skill li, .language li, .certification li{
+	list-style: circle;
+	list-style-position: inside;
+}
+.skill li:hover, .language li:hover, .certification li:hover{
+	background-color: #d5e1e3;
+}
