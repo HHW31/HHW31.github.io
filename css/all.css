@@ -193,6 +193,10 @@ tr:hover{
 	height: auto;
 	margin-bottom: 100px;
 	vertical-align: middle;
+	transition: transform .3s;
+}
+.projects li img{
+	transform: scale(2);
 }
 .education{
 	clear: both;
